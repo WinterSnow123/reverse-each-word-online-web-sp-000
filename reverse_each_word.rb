@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-  reversed = ""
+  reversed = []
   string.split.collect do |word|
-    reversed << "#{word.reverse} "
+    reversed[0] << "#{reserved[0]} #{word.reverse}"
   end
 end
